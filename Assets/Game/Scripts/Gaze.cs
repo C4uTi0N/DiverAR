@@ -1,26 +1,23 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Gaze : MonoBehaviour
 {
-    public RectTransform uITextTransform;
-
+    public RectTransform textPanel;
+    public ToggleInfoText toggleInfoText;
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hitInfo))
+        if (textPanel.localScale != Vector3.one)
         {
-            if (hitInfo.collider.gameObject.CompareTag("hasInfo"))
+            if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hitInfo))
             {
-                Text objectText = hitInfo.collider.GetComponentInChildren<Text>();
-                Text uIText = uITextTransform.GetComponentInChildren<Text>();
-                uIText.text = objectText.text;
-                uITextTransform.localScale = Vector3.one;
+                if (hitInfo.collider.gameObject.CompareTag("hasInfo"))
+                {
+                    toggleInfoText.Enable(hitInfo);
+                }
+                else { toggleInfoText.Disable(); }
             }
-            else
-            {
-                uITextTransform.localScale = Vector3.zero;
-            }
-        } 
+        }
     }
 }
