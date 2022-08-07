@@ -7,7 +7,7 @@ public class ToggleInfoText : MonoBehaviour
 
     public TextMeshProUGUI nameToShow;
     public TextMeshProUGUI textToShow;
-
+    public Gaze gaze;
 
     public void Enable(RaycastHit hitInfo)
     {
@@ -16,6 +16,7 @@ public class ToggleInfoText : MonoBehaviour
         textPanel.localScale = Vector3.one;
         nameToShow.text = hitInfo.collider.gameObject.name;
         textToShow.text = hitInfo.collider.GetComponentInChildren<TextMeshProUGUI>().text;
+        gaze.LookSlider(false);
     }
 
     public void Disable()

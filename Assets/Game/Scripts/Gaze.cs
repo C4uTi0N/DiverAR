@@ -1,10 +1,22 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Gaze : MonoBehaviour
 {
     public RectTransform textPanel;
     public ToggleInfoText toggleInfoText;
+    public float lookTime = 5f;
+
+    private float timer = 0f;
+    private Slider lookSlider;
+
+    void Start()
+    {
+        lookSlider = GameObject.Find("LookSlider").GetComponent<Slider>();
+        lookSlider.maxValue = lookTime;
+    }
+
 
     void Update()
     {
@@ -14,10 +26,36 @@ public class Gaze : MonoBehaviour
             {
                 if (hitInfo.collider.gameObject.CompareTag("hasInfo"))
                 {
-                    toggleInfoText.Enable(hitInfo);
+                    timer += Time.deltaTime;
+                    LookSlider(true);
+                    if (timer > lookTime) { toggleInfoText.Enable(hitInfo); }
                 }
-                else { toggleInfoText.Disable(); }
+                else 
+                { 
+                    timer = 0; 
+                    LookSlider(false);
+                    toggleInfoText.Disable(); 
+                }
             }
+            else
+            {
+                timer = 0;
+                LookSlider(false);
+                toggleInfoText.Disable();
+            }
+        }
+    }
+
+    public void LookSlider(bool state)
+    {
+        if (state)
+        {
+            lookSlider.gameObject.transform.localScale = Vector3.one;
+            lookSlider.value = timer;
+        } else
+        {
+            lookSlider.value = 0;
+            lookSlider.gameObject.transform.localScale = Vector3.zero;
         }
     }
 }
