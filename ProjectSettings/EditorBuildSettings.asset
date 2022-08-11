@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scenes/Main Menu.unity
+    guid: a7ef0068b2ea81f47b0aeed8acbeb653
+  - enabled: 1
+    path: Assets/Game/Scenes/Floor Scale.unity
+    guid: 2b31e1ec602c21844bb0ec0c50f65c27
+  - enabled: 1
+    path: Assets/Game/Scenes/Table Scale.unity
+    guid: 3c1cda5db5b270a4a99c05fa3ce87445
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}

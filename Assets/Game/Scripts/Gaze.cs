@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Gaze : MonoBehaviour
 {
     public RectTransform textPanel;
+    public RectTransform backToMenuButton;
     public ToggleInfoText toggleInfoText;
     public float lookTime = 5f;
 
@@ -28,13 +29,18 @@ public class Gaze : MonoBehaviour
                 {
                     timer += Time.deltaTime;
                     LookSlider(true);
-                    if (timer > lookTime) { toggleInfoText.Enable(hitInfo); }
+                    if (timer > lookTime) 
+                    { 
+                        toggleInfoText.Enable(hitInfo); 
+                        backToMenuButton.localScale = Vector3.zero;
+                    }
                 }
                 else 
                 { 
                     timer = 0; 
                     LookSlider(false);
-                    toggleInfoText.Disable(); 
+                    toggleInfoText.Disable();
+                    backToMenuButton.localScale = Vector3.one;
                 }
             }
             else
@@ -46,9 +52,9 @@ public class Gaze : MonoBehaviour
         }
     }
 
-    public void LookSlider(bool state)
+    public void LookSlider(bool stateTrue)
     {
-        if (state)
+        if (stateTrue)
         {
             lookSlider.gameObject.transform.localScale = Vector3.one;
             lookSlider.value = timer;

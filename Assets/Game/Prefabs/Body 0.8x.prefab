@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 9217882101567389015}
   - component: {fileID: 6343471426565704093}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Body 0.8x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,7 +289,7 @@ Transform:
   m_GameObject: {fileID: 4830240166799321160}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0.0151575515}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 7119690223735179464}
   - {fileID: 6638149770948832882}
@@ -556,7 +556,7 @@ MonoBehaviour:
     et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
     nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-    
+
 
     Donec
     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
@@ -564,13 +564,12 @@ MonoBehaviour:
     mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
     Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean leo ligula, porttitor eu,
-    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi.'
+
+    Aenean leo ligula, porttitor eu, consequat
+    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -812,7 +811,7 @@ MonoBehaviour:
     et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
     nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-    
+
 
     Donec
     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
@@ -820,13 +819,12 @@ MonoBehaviour:
     mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
     Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean leo ligula, porttitor eu,
-    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi.'
+
+    Aenean leo ligula, porttitor eu, consequat
+    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -969,20 +967,20 @@ MonoBehaviour:
     felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
     quis enim.
 
-    
 
-    Donec pede justo, fringilla vel, aliquet nec, vulputate
-    eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+
+    Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+    arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
     dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
     elementum semper nisi. Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean
-    leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-    dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-    varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-    Curabitur ullamcorper ultricies nisi.'
+
+    Aenean leo ligula,
+    porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+    in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+    ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2399,20 +2397,20 @@ MonoBehaviour:
     felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
     quis enim.
 
-    
 
-    Donec pede justo, fringilla vel, aliquet nec, vulputate
-    eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+
+    Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+    arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
     dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
     elementum semper nisi. Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean
-    leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-    dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-    varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-    Curabitur ullamcorper ultricies nisi.'
+
+    Aenean leo ligula,
+    porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+    in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+    ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2750,7 +2748,7 @@ MonoBehaviour:
     et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
     nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-    
+
 
     Donec
     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
@@ -2758,13 +2756,12 @@ MonoBehaviour:
     mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
     Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean leo ligula, porttitor eu,
-    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi.'
+
+    Aenean leo ligula, porttitor eu, consequat
+    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3002,7 +2999,7 @@ MonoBehaviour:
     et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
     nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-    
+
 
     Donec
     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
@@ -3010,13 +3007,12 @@ MonoBehaviour:
     mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
     Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean leo ligula, porttitor eu,
-    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi.'
+
+    Aenean leo ligula, porttitor eu, consequat
+    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3159,20 +3155,20 @@ MonoBehaviour:
     felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
     quis enim.
 
-    
 
-    Donec pede justo, fringilla vel, aliquet nec, vulputate
-    eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
+
+    Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+    arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam
     dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
     elementum semper nisi. Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean
-    leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
-    dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
-    varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-    Curabitur ullamcorper ultricies nisi.'
+
+    Aenean leo ligula,
+    porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
+    in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
+    laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
+    ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3653,7 +3649,7 @@ MonoBehaviour:
     et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
     nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
 
-    
+
 
     Donec
     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
@@ -3661,13 +3657,12 @@ MonoBehaviour:
     mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
     Aenean vulputate eleifend tellus.
 
-    
 
-    Aenean leo ligula, porttitor eu,
-    consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis,
-    feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-    Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-    nisi.'
+
+    Aenean leo ligula, porttitor eu, consequat
+    vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat
+    a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+    imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
