@@ -21,6 +21,12 @@ public class Gaze : MonoBehaviour
 
     void Update()
     {
+        ShowInfo();
+    }
+
+
+    public void ShowInfo()
+    {
         if (textPanel.localScale != Vector3.one)
         {
             if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hitInfo))
@@ -51,6 +57,7 @@ public class Gaze : MonoBehaviour
             }
         }
     }
+
 
     public void LookSlider(bool stateTrue)
     {

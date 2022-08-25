@@ -24,9 +24,4 @@ public class ToggleInfoText : MonoBehaviour
         Debug.Log("Disabling text panel");
         textPanel.localScale = Vector3.zero;
     }
-
-    public void HideInfoBox()
-    {
-        gameObject.transform.localScale = Vector3.zero;
-    }
 }
